@@ -1,0 +1,29 @@
+{
+  "name": "mygit",
+  "version": "0.0.1",
+  "description": "車輪の再発明シリーズ、git自作",
+  "main": "build/git.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node build/git.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mentai-mayo/mygit.git"
+  },
+  "keywords": [
+    "git",
+    "node.js",
+    "typescript"
+  ],
+  "author": "mentai-mayo",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/mentai-mayo/mygit/issues"
+  },
+  "homepage": "https://github.com/mentai-mayo/mygit#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.3"
+  }
+}
