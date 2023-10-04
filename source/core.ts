@@ -19,6 +19,9 @@ namespace git{
       return null;
     }
   }
+  function read(target: string): Buffer{
+    // 
+  }
 
   // write file
   function write(target: string, content: string, overwrite: boolean = false): boolean{
